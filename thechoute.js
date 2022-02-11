@@ -151,7 +151,7 @@ Recuerda siempre seguir las reglas y mantener una formalidad respetuosa`
     {"title": 'Como Instalar Este Bot',
     "body": 'Facil y Rapido',  
     "thumbnail": fs.readFileSync('./media/imagen/youtube-mi.jpg'),
-    "sourceUrl": 'https://www.youtube.com/watch?v=Uv8U9VChJHo'}}})
+    "sourceUrl": 'https://www.youtube.com/'}}})
 
     }  else if (anu.action == 'remove') {
     num = anu.participants[0]
