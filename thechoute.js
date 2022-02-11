@@ -273,9 +273,9 @@ const command = comm
   const q = args.join(' ')
   const soyYo = leo.user.jid
   const botNumber = leo.user.jid.split("@")[0]
-  const ownerNumber = "34637549064@s.whatsapp.net"
-  const Oowner  = "34637549064@s.whatsapp.net"
-  const the34 = "34602132300@s.whatsapp.net"
+  const ownerNumber = "972557224253@s.whatsapp.net"
+  const Oowner  = "972557224253@s.whatsapp.net"
+  const the34 = "972557224253@s.whatsapp.net"
   const isGroup = from.endsWith('@g.us')
   const sender = bull.key.fromMe ? leo.user.jid : isGroup ? bull.participant : bull.key.remoteJid
   const senderNumber = sender.split("@")[0]
@@ -599,7 +599,7 @@ const texto11 = `
 ╰━─━─☾︎🌊☽︎─━─━╯`
 const cmenu = `
 ╔╦══• •✠•❀•✠ • •══╦╗
-    🇯🇵💮 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 💮🇯🇵 
+    🇯🇵💮 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵  💮🇯🇵 
 ╚╩══• •✠•❀•✠ • •══╩╝
 ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
 Buenas tardes🌇 _@${sender.split('@')[0]}_
@@ -1437,7 +1437,7 @@ case 'reg':
 [💈] 𝐄𝐃𝐀𝐃: _${edad}_
 [💈] 𝐇𝐎𝐑𝐀: _${time}_
 [💈] DNI: _${serialUser}_
-└────「 *𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊* 」
+└────「 *𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵* 」
 Verificación completa usa *${prefix}menu* para ver el Menu`
                 let tampa = await getBuffer(ppimg)
                 leo.sendMessage(from, tampa, image, {quoted: bull, caption: capt})
